@@ -14,4 +14,4 @@
 | division              | string   | null: false | 
 | station               | string   |             | 
 
-### Associationcom
+### Association
