@@ -12,6 +12,6 @@
 | encrypted_password    | string   | null: false | 
 | company               | string   | null: false | 
 | division              | string   | null: false | 
-| station               | string   | null: false | 
+| station               | string   |             | 
 
-### Association
+### Associationcom
