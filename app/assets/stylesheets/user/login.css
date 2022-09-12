@@ -18,3 +18,16 @@
   text-align: center;
   color: red;
 }
+
+.new-registration a{
+  text-align: center;
+  text-decoration: none;
+  color: darkred;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.new-registration{
+  text-align: center;
+  margin-top: 20px;
+}
