@@ -11,9 +11,9 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.string :first_name, null: false
       t.string :family_name_kana, null: false
       t.string :first_name_kana, null: false
-      t.string :company, null: false
-      t.string :division, null: false
-      t.string :station
+      t.integer :company_id, null: false
+      t.integer :division_id, null: false
+      t.integer :station_id
 
       ## Recoverable
       t.string   :reset_password_token

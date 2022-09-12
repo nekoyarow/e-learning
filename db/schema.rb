@@ -19,9 +19,9 @@ ActiveRecord::Schema.define(version: 2022_08_31_123441) do
     t.string "first_name", null: false
     t.string "family_name_kana", null: false
     t.string "first_name_kana", null: false
-    t.string "company", null: false
-    t.string "division", null: false
-    t.string "station"
+    t.integer "company_id", null: false
+    t.integer "division_id", null: false
+    t.integer "station_id"
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
